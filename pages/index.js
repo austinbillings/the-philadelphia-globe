@@ -23,11 +23,11 @@ const Home = () => {
                             className="background-primary margin-30"
                             style={{ width: '300px', maxWidth: '100%', borderRadius: '50%' }}
                         />
-                        <div className="stack pad-20" style={{ maxWidth: '500px' }}>
+                        <div className="stack pad-10" style={{ maxWidth: '500px' }}>
                             <div className="pad-30 background-primary text-white">
                                 <h3 className="text-light">Welcome to</h3>
                                 <img src="/logo-text-white.svg" style={{ width: '300px', maxWidth: '100%' }} />
-                                <p class="text-large margin-top-20">All new website coming soon.</p>
+                                <p class="text-large margin-top-10">All new website coming soon.</p>
                             </div>
                             <div className="pad-30 background-white row">
                                 <div className="grow-1 text-large">

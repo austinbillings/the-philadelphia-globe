@@ -19,7 +19,7 @@ const Home = () => {
                     <img
                         src="/logo-phillyglobe.svg"
                         alt="The Philadelphia Globe logo"
-                        className="margin-10 background-white clickable"
+                        className="margin-10 background-primary clickable"
                         style={{ width: '100px', maxWidth: '100%', borderRadius: '50%', cursor: 'pointer' }}
                     />
                 </Link>
