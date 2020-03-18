@@ -24,11 +24,12 @@ const Home = () => {
                             style={{ width: '300px', maxWidth: '100%', borderRadius: '50%' }}
                         />
                         <div className="stack pad-20" style={{ maxWidth: '500px' }}>
-                            <div className="pad-40 background-primary text-white">
-                                <h3><span className="text-light">Welcome to</span> The Philadelphia Globe</h3>
-                                <p class="text-large">All new website coming soon.</p>
+                            <div className="pad-30 background-primary text-white">
+                                <h3 className="text-light">Welcome to</h3>
+                                <img src="/logo-text-white.svg" style={{ width: '300px', maxWidth: '100%' }} />
+                                <p class="text-large margin-top-20">All new website coming soon.</p>
                             </div>
-                            <div className="pad-40 background-white row">
+                            <div className="pad-30 background-white row">
                                 <div className="grow-1 text-large">
 
                                 <p className="text-engraved text-small">The Philadelphia Globe presents</p>
