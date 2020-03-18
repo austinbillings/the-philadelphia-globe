@@ -25,7 +25,7 @@ const Home = () => {
                 </Link>
 
                 <CentralLayout style={{ minHeight: 'auto' }}>
-                    <div className="row pad-20 justify-center items-center self-center">
+                    <div className="row pad-10 justify-center items-center self-center">
                         <img
                             src="https://images.squarespace-cdn.com/content/5e6f59318679733a83b1c786/1584545335724-F0XPEBZHPXSX3S8GQV8F/jen-styles+of+logo.png?content-type=image%2Fpng"
                             alt="The Philadelphia Globe logo"
@@ -33,7 +33,7 @@ const Home = () => {
                             style={{ width: '300px', maxWidth: '100%' }}
                         />
 
-                        <div className="stack pad-20" style={{ maxWidth: '500px' }}>
+                        <div className="stack pad-10" style={{ maxWidth: '500px' }}>
                             <div className="background-secondary pad-30 margin-bottom-10 text-large text-white">
                                 <p className="text-center text-engraved text-small text-black margin-bottom-10" style={{ marginTop: '-10px' }}>
                                     The Philadelphia Globe presents
@@ -44,7 +44,7 @@ const Home = () => {
                             </div>
 
                             <Link href="/lovefromphilly">
-                                <button className="btn btn-primary text-x-large text-thin margin-bottom-20" style={{ width: '100%' }}>
+                                <button className="btn btn-primary text-large text-thin margin-bottom-20" style={{ width: '100%' }}>
                                     <big>Stream <b>Live From Philly</b> now</big> <Icon fa="play-circle-o" />
                                 </button>
                             </Link>
