@@ -43,11 +43,11 @@ const Home = () => {
                                 </p>
                             </div>
 
-                            <Link href="https://www.lovefromphilly.com/">
+                            <a href="https://www.lovefromphilly.com/">
                                 <button className="btn btn-primary text-large text-thin margin-bottom-20" style={{ width: '100%' }}>
                                     <big>Stream <b>Love From Philly</b> now</big> <Icon fa="play-circle-o" />
                                 </button>
-                            </Link>
+                            </a>
 
                             <div className="background-white pad-30 text-large">
                                 <p style={{ fontWeight: 300 }}>The broadcast will raise money for <a className="text-primary" href="https://30amp.org" target="_blank">30amp.org</a>, the award winning Philly-based non-profit which promotes health and wellness for working musicians and their associates.  Please donate directly to 30amp’s <i>“Cost of Living Fund,”</i> which will then award grants to Philadelphia musicians getting hit the hardest by the COVID-19 pandemic.</p>
