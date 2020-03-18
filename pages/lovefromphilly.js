@@ -43,9 +43,9 @@ const Home = () => {
                                 </p>
                             </div>
 
-                            <Link href="/lovefromphilly">
+                            <Link href="https://www.lovefromphilly.com/">
                                 <button className="btn btn-primary text-large text-thin margin-bottom-20" style={{ width: '100%' }}>
-                                    <big>Stream <b>Live From Philly</b> now</big> <Icon fa="play-circle-o" />
+                                    <big>Stream <b>Love From Philly</b> now</big> <Icon fa="play-circle-o" />
                                 </button>
                             </Link>
 
