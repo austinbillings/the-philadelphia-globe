@@ -41,6 +41,10 @@ const Home = () => {
                                 <p className="text-regular" style={{ fontWeight: 300 }}>
                                     <b>Love From Philly: Live from Philly</b> is a one-hour show which will stream live, bringing you a daily rotating collection of Philly’s finest musicians, artists and personalities who will perform and share their stories from the trenches of this crazy pandemic.
                                 </p>
+
+                                <p className="text-center text-x-large">
+                                    Beginning 8pm EST on March 18, 2020.
+                                </p>
                             </div>
 
                             <a href="https://www.lovefromphilly.com/">
