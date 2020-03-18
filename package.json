@@ -1,0 +1,26 @@
+{
+  "name": "the-philadelphia-globe-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -- -p 2000",
+    "build": "next build",
+    "start": "next start -- -p 2000"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "arkade": "^0.2.11",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "mansion-ui": "^2.5.3",
+    "next": "^9.1.4",
+    "next-transpile-modules": "^3.0.2",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "use-http": "^0.2.4",
+    "zaq": "^2.1.3"
+  }
+}

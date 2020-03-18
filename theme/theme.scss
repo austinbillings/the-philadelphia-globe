@@ -1,0 +1,36 @@
+@import './reset';
+@import './colors';
+@import './buttons';
+@import './fonts';
+@import './typography';
+@import './margins';
+@import './padding';
+@import './animations';
+
+html {
+  @media (min-width: 992px) { font-size: 14px; }
+  @media (max-width: 992px) { font-size: 13px; }
+  @media (max-width: 768px) { font-size: 12px; }
+}
+
+body {
+  color: $white;
+  background-color: $black;
+}
+
+hr {
+  border: none;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid $dark-grey;
+}
+
+article {
+  display: block;
+  padding: 3em;
+  box-shadow: inset 0 0 5vw fade-out($dark-black, 0.9);
+}
+
+code, keygen, textarea {
+    font-size: 12px;
+}
