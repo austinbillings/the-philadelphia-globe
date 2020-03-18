@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 import 'mansion-ui';
-import 'theme/theme.scss';
+import 'theme.scss';
 
 import appConfig from 'config';
 
@@ -19,6 +19,9 @@ export const AppBase = ({ children, ...props } = {}) => {
                 <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
             </Head>
             {children}
+            <footer className="text-subtle text-center pad-10 pad-bottom-30">
+                &copy; 2020 The Philadelphia Globe. All rights reserved.
+            </footer>
         </div>
     );
 };
