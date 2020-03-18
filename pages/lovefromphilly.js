@@ -34,7 +34,7 @@ const Home = () => {
                         />
 
                         <div className="stack pad-20" style={{ maxWidth: '500px' }}>
-                            <div className="background-secondary pad-30 margin-bottom-40 text-large text-white">
+                            <div className="background-secondary pad-30 margin-bottom-10 text-large text-white">
                                 <p className="text-center text-engraved text-small text-black margin-bottom-10" style={{ marginTop: '-10px' }}>
                                     The Philadelphia Globe presents
                                 </p>
@@ -42,6 +42,12 @@ const Home = () => {
                                     <b>Love From Philly: Live from Philly</b> is a one-hour show which will stream live, bringing you a daily rotating collection of Philly’s finest musicians, artists and personalities who will perform and share their stories from the trenches of this crazy pandemic.
                                 </p>
                             </div>
+
+                            <Link href="/lovefromphilly">
+                                <button className="btn btn-primary text-x-large text-thin margin-bottom-20" style={{ width: '100%' }}>
+                                    <big>Stream <b>Live From Philly</b> now</big> <Icon fa="play-circle-o" />
+                                </button>
+                            </Link>
 
                             <div className="background-white pad-30 text-large">
                                 <p style={{ fontWeight: 300 }}>The broadcast will raise money for <a className="text-primary" href="https://30amp.org" target="_blank">30amp.org</a>, the award winning Philly-based non-profit which promotes health and wellness for working musicians and their associates.  Please donate directly to 30amp’s <i>“Cost of Living Fund,”</i> which will then award grants to Philadelphia musicians getting hit the hardest by the COVID-19 pandemic.</p>
