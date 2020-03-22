@@ -44,8 +44,6 @@ const Home = () => {
                                     />
                                     <p className="text-bold text-large">
                                         Love from Philly.
-                                        <br/>
-                                        Live from Philly.
                                     </p>
                                     <p>
                                         Love From Philly is a community effort to bring hope, inspiration and love from Philly to benefit our city's musicians and artists.
