@@ -7,6 +7,7 @@ import { AppError } from 'arkade/errors';
 import { ErrorBoundary } from 'arkade/tools';
 
 import { AppBase } from 'components/app-base';
+import { SocialButtons } from 'components/social-buttons';
 
 import config from 'config';
 const { API_BASE_URL } = config;
@@ -15,19 +16,22 @@ const Home = () => {
     return (
         <AppBase>
             <ErrorBoundary>
-                <Link href="/">
-                    <img
-                        src="/logo-phillyglobe.svg"
-                        alt="The Philadelphia Globe logo"
-                        className="margin-10 background-primary clickable"
-                        style={{ width: '100px', maxWidth: '100%', borderRadius: '50%', cursor: 'pointer' }}
-                    />
-                </Link>
+                <div className="row">
+                    <Link href="/">
+                        <img
+                            src="/logo-phillyglobe.svg"
+                            alt="The Philadelphia Globe logo"
+                            className="margin-10 background-primary clickable"
+                            style={{ width: '100px', maxWidth: '100%', borderRadius: '50%', cursor: 'pointer' }}
+                        />
+                    </Link>
+                    <SocialButtons/>
+                </div>
 
                 <CentralLayout style={{ minHeight: 'auto' }}>
                     <div className="row pad-10 justify-center items-center self-center">
                         <img
-                            src="https://images.squarespace-cdn.com/content/5e6f59318679733a83b1c786/1584545335724-F0XPEBZHPXSX3S8GQV8F/jen-styles+of+logo.png?content-type=image%2Fpng"
+                            src="/love-from-philly.png"
                             alt="The Philadelphia Globe logo"
                             className="background-white pad-30 margin-30 clickable"
                             style={{ width: '300px', maxWidth: '100%' }}
@@ -39,22 +43,21 @@ const Home = () => {
                                     The Philadelphia Globe presents
                                 </p>
                                 <p className="text-regular" style={{ fontWeight: 300 }}>
-                                    <b>Love From Philly: Live from Philly</b> is a one-hour show which will stream live, bringing you a daily rotating collection of Philly’s finest musicians, artists and personalities who will perform and share their stories from the trenches of this crazy pandemic.
+                                    Love From Philly is a community effort to bring hope, inspiration and love from Philly to benefit our city's musicians and artists.
                                 </p>
-
-                                <p className="text-center text-x-large">
-                                    Beginning 8pm EST on March 18, 2020.
+                                <p>
+                                    Love From Philly serves as a virtual stage for Philly’s finest musicians, artists and personalities, as well as artists from around the globe, who can send in their <b>#lovejawns</b> -- 1-3 min videos sharing their stories from inside the trenches of this crazy pandemic and ending with a song they’d like to perform, as well as near-daily Live in-home performances from around the city and the globe.
                                 </p>
                             </div>
 
-                            <a href="https://www.lovefromphilly.com/">
+                            <a href="https://www.lovefromphilly.com/" target="_blank">
                                 <button className="btn btn-primary text-large text-thin margin-bottom-20" style={{ width: '100%' }}>
-                                    <big>Stream <b>Love From Philly</b> now</big> <Icon fa="play-circle-o" />
+                                    <big>Visit the <b>Love From Philly</b> site</big> <Icon fa="play-circle-o" />
                                 </button>
                             </a>
 
-                            <div className="background-white pad-30 text-large">
-                                <p style={{ fontWeight: 300 }}>The broadcast will raise money for <a className="text-primary" href="https://30amp.org" target="_blank">30amp.org</a>, the award winning Philly-based non-profit which promotes health and wellness for working musicians and their associates.  Please donate directly to 30amp’s <i>“Cost of Living Fund,”</i> which will then award grants to Philadelphia musicians getting hit the hardest by the COVID-19 pandemic.</p>
+                            <div className="background-white pad-30 text-large text-light" style={{ lineHeight: '180%' }}>
+                                Love From Philly is a partnership between The Philadelphia Globe and <a href="https://30amp.org" target="_blank">30 Amp Circuit</a>, the award winning Philly-based non-profit which promotes health and wellness for working musicians and their associates. To donate, please do so directly to <a href="https://30amp.org">30amp’s “Cost of Living Fund,”</a> which will then award grants to Philadelphia musicians getting hit the hardest by the COVID-19 pandemic. More info can be found at <a href="https://30amp.org" target="_blank">30amp.org</a> and <a href="https://lovefromphilly.org" target="_blank">lovefromphilly.com</a>.
                             </div>
                         </div>
                     </div>

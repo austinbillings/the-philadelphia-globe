@@ -7,6 +7,7 @@ import { AppError } from 'arkade/errors';
 import { ErrorBoundary } from 'arkade/tools';
 
 import { AppBase } from 'components/app-base';
+import { SocialButtons } from 'components/social-buttons';
 
 import config from 'config';
 const { API_BASE_URL } = config;
@@ -17,13 +18,16 @@ const Home = () => {
             <ErrorBoundary>
                 <CentralLayout>
                     <div className="row pad-20 justify-center items-center self-center">
-                        <img
-                            src="/logo-phillyglobe.svg"
-                            alt="The Philadelphia Globe logo"
-                            className="background-primary margin-30"
-                            style={{ width: '300px', maxWidth: '100%', borderRadius: '50%' }}
-                        />
-                        <div className="stack pad-10" style={{ maxWidth: '500px' }}>
+                        <div>
+                            <img
+                                src="/logo-phillyglobe.svg"
+                                alt="The Philadelphia Globe logo"
+                                className="background-primary margin-30 margin-bottom-0"
+                                style={{ width: '300px', maxWidth: '100%', borderRadius: '50%' }}
+                            />
+                            <SocialButtons />
+                        </div>
+                        <div className="stack pad-10" style={{ maxWidth: '600px' }}>
                             <div className="pad-30 background-primary text-white">
                                 <h3 className="text-light">Welcome to</h3>
                                 <img src="/logo-text-white.svg" style={{ width: '300px', maxWidth: '100%' }} />
@@ -34,14 +38,20 @@ const Home = () => {
 
                                 <p className="text-engraved text-small">The Philadelphia Globe presents</p>
                                     <img
-                                        src="https://images.squarespace-cdn.com/content/5e6f59318679733a83b1c786/1584545335724-F0XPEBZHPXSX3S8GQV8F/jen-styles+of+logo.png?content-type=image%2Fpng"
+                                        src="/love-from-philly.png"
                                         style={{ float: 'right', width: '120px' }}
                                         className="margin-10"
                                     />
-                                    <p>
-                                        <b className="text-large">Love from Philly.<br/>Live from Philly.</b>
+                                    <p className="text-bold text-large">
+                                        Love from Philly.
                                         <br/>
-                                        Click here to visit <nobr className="text-bold">Love From Philly</nobr>, our one-hour live stream bringing you a daily rotating collection of Philly’s finest musicians, artists and personalities who will perform and share their stories from the trenches of this crazy pandemic.
+                                        Live from Philly.
+                                    </p>
+                                    <p>
+                                        Love From Philly is a community effort to bring hope, inspiration and love from Philly to benefit our city's musicians and artists.
+                                    </p>
+                                    <p>
+                                        Love From Philly serves as a virtual stage for Philly’s finest musicians, artists and personalities, as well as artists from around the globe, who can send in their <b>#lovejawns</b> -- 1-3 min videos sharing their stories from inside the trenches of this crazy pandemic and ending with a song they’d like to perform, as well as near-daily Live in-home performances from around the city and the globe.
                                     </p>
                                     <Link href="/lovefromphilly">
                                         <button className="btn" style={{ width: '100%' }}>
