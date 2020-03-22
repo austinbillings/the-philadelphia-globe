@@ -62,7 +62,6 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <p>Yo?</p>
                 </CentralLayout>
             </ErrorBoundary>
         </AppBase>
