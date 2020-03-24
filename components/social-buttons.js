@@ -14,8 +14,8 @@ const links = [
         icon: 'youtube'
     },
     {
-        url: 'https://www.youtube.com/channel/UCCLn48VCIl-t5foYQXbiaWw?',
-        title: 'https://www.facebook.com/thephiladelphiaglobe',
+        url: 'https://www.facebook.com/thephiladelphiaglobe',
+        title: 'The Philadelphia Globe on Facebook',
         icon: 'facebook'
     }
 ]
